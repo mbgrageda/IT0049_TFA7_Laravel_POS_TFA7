@@ -1,0 +1,11 @@
+Merge this field into the EXISTING $fillable array in app/Models/User.php.
+Do not replace your existing User model or remove password/role/email fields.
+
+Example:
+
+protected $fillable = [
+    'username',
+    'full_name',
+    'avatar',
+    'password',
+];
